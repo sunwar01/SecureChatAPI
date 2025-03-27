@@ -1,0 +1,6 @@
+@SecureChatAPI_HostAddress = http://localhost:5155
+
+GET {{SecureChatAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
