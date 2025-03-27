@@ -5,15 +5,17 @@ namespace SecureChatApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ChatController : ControllerBase
+public class UserController : ControllerBase
 {
     private readonly CryptoService _cryptoService;
         
-    public ChatController(CryptoService cryptoService)
+    public UserController(CryptoService cryptoService)
     {
         _cryptoService = cryptoService;
     }
         
+    
+    // User Creation for real use
     
 }
 
